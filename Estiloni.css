@@ -1,0 +1,231 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*----------------------------------------------------
+ANCHURA DEL SITIO
+----------------------------------------------------*/
+
+.contenedor{
+	width: 980px;
+	margin: 0 auto;
+	/*border: 1px solid red;*/	
+}
+
+/*----------------------------------------------------
+ENCABEZADO
+----------------------------------------------------*/
+
+.encabezado{
+	background: #F1CD74;
+	overflow: hidden;
+	position: relative;
+}
+
+.contenedor{align-content: center}
+
+.menubar{
+	width: 1000px;
+	margin: 10px auto;
+	background: #DBE6EF;	
+}
+
+.menubar ul{
+	list-style: none;
+}
+
+.menubar li{
+	position: relative;
+	display: inline-block;	
+}
+
+.menubar li a{
+	display: block;
+	padding: 15px 20px;
+	color: #9E5717;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	text-decoration: none;
+	font-size: 20px;
+}
+
+/*------------------------------------------------
+IMAGEN Y LOGOTIPO
+-----------------------------------------------*/
+
+.main img{margin: auto;
+	display: block;
+}
+
+.main h5{text-align: center;
+font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+color:#9E5817;
+font-size: 25px;
+text-decoration: none;
+}
+
+.logotipo {font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-align: center;
+	font-size: 50px;
+	color: cornflowerblue;
+}
+
+.logotipo span{font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+color: lightcyan
+}
+
+.main h3{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 30px;
+	color: #AF6C1D;
+	text-align: center;
+}
+
+/*------------------------------------------------
+SERVICIOS
+-----------------------------------------------*/
+
+.main #planea{
+	width: 650px;
+	margin: 10px auto;
+	background: #76A8F1;	
+	float: left;
+}
+
+.main #planea h4{
+	text-align: center;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	color: #E5FFFF;
+	font-size: 25px;
+}
+
+.main #planea p{
+	text-align: center;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 20px;
+	margin: 20px;
+	color: #E5FFFF;
+}
+
+.main #viaja{
+	width: 650px;
+	margin: 10px auto;
+	background: #76A8F1;	
+	float: right;
+}
+
+.main #viaja h4{
+	text-align: center;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	color: #E5FFFF;
+	font-size: 25px;
+}
+
+.main #viaja p{
+	text-align: center;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 20px;
+	margin: 20px;
+	color: #E5FFFF;
+}
+/*------------------------------------------------
+DEPARTAMENTOS
+------------------------------------------------*/
+#leon{
+	width: 100%;
+	margin: 10px auto;
+	background: #AF6B1D;	
+	float: left;
+}
+
+#leon h3{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	color:#F1CE74;
+	font-size: 40px;
+	text-align: center;
+	margin: 15px;
+}
+
+#leon p{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	color: #E5FFFF;
+	text-align: center;
+	font-size: 25px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+#leon img{
+	display: block;
+	margin: 0px 520px 0 520px;
+}
+
+#granada{
+	width: 100%;
+	margin: 10px auto;
+	background: #76A8F1;	
+	float: left;
+}
+
+#granada h3{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	color:#F1CE74;
+	font-size: 40px;
+	text-align: center;
+	margin: 15px;
+}
+
+#granada p{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	color: #E5FFFF;
+	text-align: center;
+	font-size: 25px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+#granada img{
+	display: block;
+	margin: 0px 520px 0 520px;
+}
+/*------------------------------------------------
+FORMULARIO
+------------------------------------------------*/
+
+form{
+	width: 50%;
+	margin: 20px;
+	padding: 20px;
+}
+
+form h3{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	color:#BE7F25;
+	text-align: center;
+}
+label{
+	font-size: 17px;
+	display: block;
+	width: 100%;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	color: #AF6B1D;
+}
+
+input{
+	margin-bottom: 20px;
+	width: 100%;
+	padding: 5px;
+}
+/*-------------------------------------------------
+FOOTER
+-------------------------------------------------*/
+
+footer{
+  width: 100%;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+  font-size: 100%;
+  height: 80px;
+  padding: 0.2px 0 5px 0;
+  text-align: center; 
+  background: #F1CE74;
+  color:#1F1F1F;
+}
+
