@@ -1,14 +1,114 @@
 <!doctype html>
-<html>
+<html lang="es">
 <head>
 <meta charset="UTF-8">
-<title>Mi primera web</title>
+<title>Descubre Nicaragua</title>
+	<link rel="stylesheet" href="Estiloni.css">
+<style>
+	body{background: #DBE7EF}
+	</style>
 </head>
 <body>
-	<h1>Hola, <div>
-		</div>esta es mi primera página web</h1>
-	<h2>María Gabriela Gianolli Lopez</h2>
-	<img src="https://data.whicdn.com/images/235030691/original.gif" alt="Girasol" style="width:300px;height:300px;">
-	<h2>Girasol</h2>
+<header class="encabezado">
+	<div class="contenedor">
+	<nav class="menubar" role="navigation">
+			<ul>
+			<li>
+				<a href="#">Home</a>
+			</li>
+			<li>
+				<a href="#">Servicios</a>
+			</li>
+			<li>
+				<a href="#">León</a>
+			</li>
+			<li>
+				<a href="#">Granada</a>
+			</li>
+			<li>
+				<a href="#">Contacto</a>
+			</li>
+		</ul>
+	</nav>
+	<figure class="main">
+		<img src="Images/imageninicial_Mesa de trabajo 1.png" alt="ciudades coloniales" width="615" height="461">
+		<figcaption>
+		  <h5>¡No te quedés sin conocer estas bellas ciudades!</h5>
+	  </figcaption>
+	</figure>
+	<h2 class="logotipo">DESCUBRE<span> NICARAGUA</span> </h2>
+	</div>
+</header>
+<section class="main">
+	<h3>SERVICIOS</h3>
+	<article  id="planea">
+		<div>
+			<h4>
+				PLANEA TU EXPERIENCIA
+			</h4>
+			<p>Con nuestra ayuda y asesoría puedes empezar a planear tu grandioso viaje a las ciudades coloniales de Nicaragua, nosotros te haremos saber todo lo que necesites para emprender tu aventura.</p>
+			<figure>
+			<img src="Images/location (1).png" alt="planea" width="200" height="200">	
+			</figure>
+		</div>
+	</article>
+	<article  id="viaja">
+	<div>
+		<h4>
+			REALIZA TU VIAJE
+		</h4>
+		<p>Una vez que todo esté planeado, estarás listo para ponerte en marcha, preparate para adquirir nuevas experiencias que jamás olvidarás! Alistá el entusiasmo y tus zapatos para turistear !!!</p>
+		<figure>
+		<img src="Images/marathon (1).png" alt="planea" width="200" height="200">
+		</figure>
+	</div>
+	</article>
+</section>
+<section id="departamentos">
+	<article>
+		<div id="leon">
+			<h3>LEÓN</h3>
+		  <p>Ubicada a tan solo 93km de la ciudad de Managua capital de Nicaragua, conocida como La ciudad universitaria, encontramos el departamento de León. Fue fundada el 15 de junio de 1524 por Francisco Hernández de Córdoba a orillas del volcán Momotombo.</p>
+			<figure>
+				<img src="Images/leon-nicaragua-guide++things-to-do.jpg" alt="leon" width="255" height="169">
+			</figure>
+		</div>	
+	</article>
+	<article>
+		<div id="granada">
+			<h3>GRANADA</h3>
+			<p>Granada es una de las más importantes ciudades de Nicaragua, es la primera ciudad de interés histórico y de importancia turística, se le llama La Gran Sultana, por su volcán, antiguamente conocido como El Sultán. La Calzada con sus característicos edificios coloniales, al final de la calle se encuentra el lago Cocibolca.</p>
+			<figure>
+				<img src="Images/lacalzada.jpg" alt="granada" width="255" height="169">
+			</figure>
+		</div>	
+	</article>
+</section>
+<section>
+	<div>
+		<form>
+			<h3>CONTACTO</h3>
+			
+    				<label for="name">Nombre:</label>
+    				<input type="text" id="name" name="user_name">
+  				
+    				<label for="mail">Correo electrónico:</label>
+    				<input type="email" id="mail" name="user_mail">
+  				
+    				<label for="msg">Mensaje:</label>
+    				<textarea id="msg" name="user_message"></textarea>
+  			
+					<input type="submit" value="Enviar">	
+		</form>	
+	</div>
+</section>
+<footer>
+	<div>
+	  <h4>DESCUBRE NICARAGUA</h4>
+		<h5>¡Todo lo que quieras saber acerca de los diferentes rincones de Nicaragua, lo puedes encontrar con nosotros!
+		www.descubrenic.com | info@descnic.com
+		Tel: (505) 22783923 | Nicaragua</h5>
+	</div>
+</footer>
 </body>
 </html>
